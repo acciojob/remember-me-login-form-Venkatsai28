@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+  <body>
+    <!-- the entire body must be written by student -->
+    <h1>Login Form</h1>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required />
+      <br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+      <br />
+      <label for="checkbox">Remember me:</label>
+      <input type="checkbox" id="checkbox" />
+      <br />
+      <input type="submit" id="submit" value="Submit" />
+      <button type="button" id="existing">Login as existing user</button>
+    </form>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
 </html>
